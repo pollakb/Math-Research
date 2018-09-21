@@ -29,12 +29,3 @@ nonSolvableGroups = getNonSolvableGroups(groupOrder)
 printIDs(nonSolvableGroups)
 for (ID, group) in nonSolvableGroups:
     print "Group", ID, "has normal subgroups of orders:", getNormalSubgroupOrders(group)
-
-
-
-
-
-
-
-
-
