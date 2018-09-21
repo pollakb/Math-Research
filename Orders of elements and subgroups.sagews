@@ -14,12 +14,3 @@ permGroup = PermutationGroup(gap_group = group.AsPermGroup())
 print "The group has GAP ID", gap.IdGroup(group)
 printOrdersOfElements(permGroup)
 printOrdersOfSubgroups(permGroup)
-
-
-
-
-
-
-
-
-
