@@ -1,5 +1,5 @@
 K.<zeta23> = CyclotomicField(23)
-print "K is the", K
+print "K is:", K
 
 R.<x> = PolynomialRing(K)
 f = x^3 + (-zeta23^18 - zeta23^16 - zeta23^13 - zeta23^12 - zeta23^9 - zeta23^8 - zeta23^6 - zeta23^4 - zeta23^3 - zeta23^2 - zeta23 - 2)*x^2 + (zeta23^18 + zeta23^16 + zeta23^13 + zeta23^12 + zeta23^9 + zeta23^8 + zeta23^6 + zeta23^4 + zeta23^3 + zeta23^2 + zeta23 - 1)*x + 1
