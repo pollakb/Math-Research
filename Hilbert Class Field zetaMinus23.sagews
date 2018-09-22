@@ -10,12 +10,3 @@ print "Adjoining a root of f to K yields an extension of K with relative discrim
 HzetaMinus23.<alpha> = L.absolute_field()
 print "\nThe Hilbert class field of K is:", HzetaMinus23
 print "It has discriminant:", HzetaMinus23.discriminant().factor()
-
-
-
-
-
-
-
-
-
