@@ -1,4 +1,3 @@
-︠dc97b675-4959-4502-8c13-216bc6171b8b︠
 n = input("Enter degree:")
 secondDegree = input("Bound degree of second term:")
 secondCoefficient = input("Bound value of second term coefficient:")
@@ -12,13 +11,3 @@ for k in range(1, secondDegree):
                 factors = list(factor(d))
                 if(len(factors) == 1):
                     print "x^%d + %d*x^%d + %d with discriminant %d" %(n,a,k,b,d)
-
-
-
-
-
-
-
-
-
-
